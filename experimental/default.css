@@ -1,0 +1,76 @@
+body {
+    background-color: #CCCCCC;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 0 0 0;
+  
+  }
+  
+  h1, h2, h3, h4 {
+    background-color: #99ccff;
+    /*clear: right;*/
+  }
+  
+  div.main p {
+    margin: 10px 10px 10px 10px;
+  }
+  
+  div.status {
+    /*margin-left: 25px;*/
+    background-color: #FFFFFF;
+  }
+  
+  div.siteheader {
+    background-color:#ffffff;
+    font-size: 12pt;
+    width: 100%;
+    top: 0px;
+    clear:both;
+  }
+  
+  .pageheader {
+    background-color:#0066cc;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 18pt;
+    color: #ccffff;
+    font-weight: bold;
+  }
+  
+  .backlink {
+    position: fixed;
+    font-size: 10pt;
+    font-weight: bold;
+    float: left;
+    width: 10%;
+    border-top: medium inset #0000ff;
+    border-bottom: medium inset #0000ff;
+  }
+    
+  .pagefooter {
+    clear: both;
+    background-color:#0066cc;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 12pt;
+    color: #ccFFFF;
+  }
+  
+  .main {
+    background-color:#FFFFFF;
+    width: 80%;
+    margin: 0px auto 0px auto;
+    align: center;
+    padding: 0px 0px 0px 0px;
+  
+  }
+  
+  .rsidebar {
+    float: right;
+    border: 8px ridge #0000ff;
+    background-color: #99ccff;
+    font-size: 10pt;
+    margin-left: 10px;
+  }
+  
+  
+  

@@ -1,0 +1,79 @@
+/* CSS comments look like this */
+/* *{
+border: 1px dashed red;
+} */
+hr { 
+    display: block;
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+  } 
+
+.pageheader{
+    background-color:#11999E;
+    margin: 0 0 0 0;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+
+main{
+    background-color: #40514E;
+    padding-left: 40px;
+}
+
+footer{
+    background-color:#11999E;
+    margin: 0 0 0 0;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+
+nav{
+    background-color:#30E3CA;
+    padding: 10px 10px 10px 10px;
+    color:black;
+}
+
+li.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+    display: inline;
+    background-color:#30E3CA;
+}
+
+body{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #E4F9F5;
+    margin: 0 0 0 0;
+    background-color: #40514E;
+}
+
+.main-paragraph:hover{
+    background: rgba(255, 125, 125, 0.4);
+    font-size: 2rem;
+}
+
+a:hover[href="./about-me.html"]{
+    background-color: yellow;
+    color:darkmagenta;
+}
+
+a:hover{
+    background-color:burlywood;
+    color:darkmagenta;
+}
+
+a:visited{
+    color:purple;
+}
+
+img.w3cimage{
+    border-style: dotted double;
+    border-color: black;
+    border-radius: 2rem;
+}
