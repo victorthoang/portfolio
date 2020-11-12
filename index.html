@@ -3,55 +3,61 @@
 <head>
 	<!--insert meta data here-->
 	<title>Html110 B Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/3f336ee7e9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+	<div class="content">
 	<!--insert contents here.-->
 	<header id="top">
 		<h1 class="pageheader">Html110 B Portfolio Index</h1>
-		<hr>
+		<!-- <hr> -->
 	</header>
 	<main>
 		<ul>
-			<li>
-				<a class="active" href="./index.html">Home</a>
+			<li class="linav">
+				<a class="active" href="./index.html"><i class="fas fa-home fa-lg"></i> Home</a>
 			</li>
-			<li>
-				<a href="./assignments.html" class="dropdown">Assignments</a>
+			<li class="linav">
+				<a href="./assignments.html" class="dropdown"><i class="fas fa-scroll fa-lg"></i> Assignments</a>
 			</li>
-			<li>
-				<a href="https://github.com/victorthoang" target="_blank">GitHub</a>
+			<li class="linav">
+				<a href="https://github.com/victorthoang" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
 			</li>
-			<li>
-				<a href="https://jigsaw.w3.org/css-validator" target="_blank">CSS Validator</a>
+			<li class="linav">
+				<a href="https://jigsaw.w3.org/css-validator" target="_blank"><i class="fab fa-css3-alt fa-lg"></i> CSS Validator</a>
 			</li>
-			<li>
-				<a href="https://canvas.uw.edu" target="_blank">Canvas Homepage</a>
+			<li class="linav">
+				<a href="https://canvas.uw.edu" target="_blank"><i class="fas fa-graduation-cap fa-lg"></i> Canvas Homepage</a>
 			</li>
-			<li>
-				<a href="https://validator.w3.org/" target="_blank">Website Validator</a>
+			<li class="linav">
+				<a href="https://validator.w3.org/" target="_blank"><i class="fab fa-html5 fa-lg"></i> Website Validator</a>
 			</li>
-			<li>
-				<a href="https://www.10bestdesign.com/dirtymarkup/" target="_blank">Formatter</a>
+			<li class="linav">
+				<a href="https://www.10bestdesign.com/dirtymarkup/" target="_blank"><i class="fas fa-remove-format fa-lg"></i> Formatter</a>
 			</li>
-			<li>
-				<a href="about-me.html">About Me</a>
+			<li class="linav">
+				<a href="about-me.html"><i class="fas fa-address-card fa-lg"></i> About Me</a>
 			</li>
 		</ul>
-	<hr>
+	<!-- <hr> -->
 
 		<section id="Assignments">
 			<h2>Hello!</h2>
 			<p>Welcome to the landing page of my Html 110 Portfolio! Future content will be added here as soon as I come up with content.</p>
+			<i class="fas fa-home"></i>
+			<p>In the mean time, here is a photo of my favorite doggo, Kaydee!</p>
+			<img src="images/kaydee.jpg" width=400px height=500px>
 		</section>
-		<aside>
-			<p>Place holder for future aside tag.</p>
-		</aside>
+			<p>Or, if you prefer <a href="https://victorthoang.github.io/mockup/" target=_blank> cats</a>...then you're one of THOSE PEOPLE!</p>
+
 	</main>
-	<hr>
-	<footer>
-		Copyright&#169; 2020 Victor Hoang
+	<!-- <hr> -->
+</div>
+	<footer class="footer">
+		<i class="far fa-copyright fa-lg"></i> 2020 Victor Hoang Inc. All rights reserved.
 	</footer>
 </body>
 </html>
