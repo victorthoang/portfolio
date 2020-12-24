@@ -9,6 +9,7 @@
 	<script src="https://kit.fontawesome.com/3f336ee7e9.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	<a href="#main-content" class="hidden">Skip to main content</a>
 	<div class="content">
 	<!--insert contents here.-->
 	<header id="top">
@@ -44,14 +45,17 @@
 	<main>
 	<!-- <hr> -->
 
-		<section id="Assignments">
-			<h2>Hello!</h2>
+		<section id="Assignments" >
+			<h2 id="main-content">Hello!</h2>
 			<p>Welcome to the landing page of my Html 110 Portfolio! Future content will be added here as soon as I come up with content.</p>
 			<i class="fas fa-home"></i>
 			<p>In the mean time, here is a photo of my favorite doggo, Kaydee!</p>
-			<img src="images/kaydee.jpg" width=400px height=500px>
+			<img alt="cute golden retriever staring back at the camera innocently" src="images/kaydee.jpg" width=400px height=500px>
 		</section>
-			<p>Or, if you prefer <a href="https://victorthoang.github.io/mockup/" target=_blank> cats</a>...then you're one of THOSE PEOPLE!</p>
+			<p>Or, if you prefer 
+				<span class="sr-only">this link opens in a new tab</span>
+				<a href="https://victorthoang.github.io/mockup/" target=_blank> cats</a>
+				...then you're one of THOSE PEOPLE!</p>
 
 	</main>
 	<!-- <hr> -->
